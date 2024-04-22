@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html :th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="utf-8" />
+	<title>FizzBuzz</title>
+</head>
+
+<body>
+
+	<h1>FizzBuzz</h1>
+	<ul th:each=" str: ${list}">
+		<li th:text="${str}"></li>
+	</ul>
+
+</body>
+
+</html>
